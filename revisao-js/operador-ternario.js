@@ -30,4 +30,4 @@ let msg
 // As duas barras (||) são "ou" no JavaScript
 msg = (user === 'root' || user === 'admin' ? 'Superusuário' : 'Usuário comum')
 
-console.log(user, msg)
+console.log({user, msg})
